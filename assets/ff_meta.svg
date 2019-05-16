@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1010px" height="552px" viewBox="0 0 1010 552" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Custom-Preset" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FDF6E3" x="0" y="0" width="1010" height="552"></rect>
+        <text id="18Files-288k" font-family="MetaVariableDemoSet_Book-Italic, Meta Variable Demo Set" font-size="120" font-style="italic" font-weight="300" fill="#414344">
+            <tspan x="111.236292" y="221">18</tspan>
+            <tspan x="234.556458" y="221" font-family="MetaVariableDemoSet_Light-Italic, Meta Variable Demo Set">Files</tspan>
+            <tspan x="448.763708" y="221" font-family="MetaVariableDemoSet_Bold, Meta Variable Demo Set" font-size="24" font-weight="bold"></tspan>
+            <tspan x="105.841" y="375" font-family="MetaVariableDemoSet_Extra-Bold, Meta Variable Demo Set" font-size="148" font-weight="600">288k</tspan>
+        </text>
+        <text id="1File-84k" font-family="MetaVariableDemoSet_Book-Italic, Meta Variable Demo Set" font-size="120" font-style="italic" font-weight="300" fill="#414344">
+            <tspan x="622.436909" y="221">1</tspan>
+            <tspan x="675.557027" y="221" font-family="MetaVariableDemoSet_Light-Italic, Meta Variable Demo Set">File</tspan>
+            <tspan x="837.563091" y="221" font-family="MetaVariableDemoSet_Bold, Meta Variable Demo Set" font-size="148" font-weight="bold"></tspan>
+            <tspan x="603.09" y="375" font-family="MetaVariableDemoSet_Extra-Bold, Meta Variable Demo Set" font-size="148" font-weight="600">84k</tspan>
+        </text>
+    </g>
+</svg>
