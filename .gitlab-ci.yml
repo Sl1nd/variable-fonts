@@ -1,5 +1,3 @@
-before_script:
-  - npm install
 pages:
   stage: deploy
   script:
