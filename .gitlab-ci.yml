@@ -1,2 +1,14 @@
+
 before_script:
   - npm install
+  - npm run cp
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
