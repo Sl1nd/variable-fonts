@@ -1,12 +1,11 @@
-
 before_script:
   - npm install
-  - npm run cp
 cache:
   paths:
     - node_modules/
-
 pages:
+  script:
+    - npm run cp
   artifacts:
     paths:
       - public

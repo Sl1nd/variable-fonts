@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/slind.css">
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+		<!-- Category import -->
+		<link rel="improt" href="history.html">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="chapter">
+					<h3 class="headline first-letter">Variable Fonts</h3>
+						<aside class="notes">
+								<ol>
+									<li>Einführung in variable fonts</li>
+									<li>Was dahinter steckt</li>
+									<li>Wie man sie benutzt</li>
+									<li>Warum das ganze</li>
+								</ol>
+						</aside>
+				</section>
+				<section>
+					<section><h3 class=" first-letter">What?</h3>
+						<aside class="notes">
+							<ul>
+								<li>Erweiterung der Opentype Sepzifikation „Opentype Font ­Variations“</li>
+								<li>Zusammenarbeit der großen Technologie konzerne (Microsoft, Google oder  Adobe</li>
+								<li>Vereinfachung von Digitaler Schriften Hersellung bis Anwendung</li>
+								<li>Performance datenmenge einsparen</li>
+							</ul>
+						</aside>
+					</section>
+					<section data-markdown="chapter/what/font_cite.md">
+					</section>
+					<section>
+						<table>
+							<thead>
+								<tr>
+									<th>Achse</th>
+									<th>Name</th>
+									<th>CSS-Tag</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Strichstärke</td>
+									<td>Weight</td>
+									<td>wght</td>
+								</tr>
+								<tr>
+									<td>Schriftbreite</td>
+									<td>Width</td>
+									<td>wdth</td>
+								</tr>
+								<tr>
+									<td>Optische Größe</td>
+									<td>Optical Size</td>
+									<td>opsz</td>
+								</tr>
+								<tr>
+									<td>Kursive</td>
+									<td>Italic</td>
+									<td>ital</td>
+								</tr>
+								<tr>
+									<td>Neigung</td>
+									<td>Slant</td>
+									<td>slnt</td>
+								</tr>
+							</tbody>
+						</table>
+						<aside class="notes">
+							<ul>
+									<li>Fünf Standart Achsen (Strichstärke, Schriftbreite)</li>
+									<li>Kursiven Achsen </li>
+									<li>Slant oblique</li>
+									<li>Können über css angesprochen werden</li>
+									<li>Vom Typograph vorgegeben</li>
+									<li>Standardachsen müssen nicht zwangsweise alle belegt sein</li>
+							</ul>
+						</aside>
+					</section>
+					<section 	data-markdown="chapter/what/basics_1.md">
+					</section>
+					<section data-markdown="chapter/what/basics_2.md">
+					</section>
+
+					<section data-markdown="chapter/what/basics_3.md">
+					</section>
+
+								<section data-markdown="chapter/what/basics_5.md">
+								</section>
+								<section>
+									<a href="https://www.axis-praxis.org/"><img class="large-image" src="assets/Axes-praxis.png"></a>
+								</section>
+									<section>
+										<a href="https://caniuse.com/#feat=variable-fonts"><img class="large-image" src="assets/support.png"></a>
+									</section>
+									<section data-markdown="chapter/what/basics_6.md">
+									</section>
+				</section>
+				<section>
+					<section>
+						<h3 class=" first-letter">Why?</h3>
+					</section>
+					<section data-markdown="chapter/why/basics_4.md">
+					</section>
+					<section data-markdown="chapter/why/font_cite.md">
+					</section>
+					<section data-markdown="chapter/why/basics_1.md">
+
+					</section>
+					<section>
+						<img class="large-image" src="assets/news.svg">
+						<aside class="notes">
+							<ul>
+								<li>Das sehen wir anhand von berühmte Tageszeitungen</li>
+								<li>Abschnitte</li>
+								<li>Initiale</li>
+								<li>Vielfältige Typografie</li>
+								<li>verleiht der Zeitung ihren Charakter</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						<img class="large-image" src="assets/web_news.svg">
+						<aside class="notes">
+							<ul>
+								<li>Charakterlos</li>
+								<li>nicht zu unterscheiden</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						<ul>
+							<li class="first-letter">
+								Animation
+							</li>
+							<li class="first-letter">
+								Fine-Tuned settings
+							</li>
+							<li class="first-letter">
+								Rich typography
+							</li>
+							<li class="first-letter">
+								Optical Size
+							</li>
+							<li class="first-letter">
+								Bandwith
+							</li>
+						</ul>
+					</section>
+					</section>
+					<section class="chapter">
+						<img width="10%" src="assets/profile_picture.png" />
+						<h4>Sven Lindauer</h4>
+						<h5>slindauer@inovex.de</h5>
+					</section>
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
